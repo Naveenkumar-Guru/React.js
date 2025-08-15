@@ -1,11 +1,10 @@
-import ClassComp1 from "./Components/ClassComponents/ClassParent";
-
+import ClassParentComp from "./Components/ClassComponents/ClassParentComp";
 
 function App() {
   return (
     <div>
       {/* <h1> App Component</h1> */}
-      <ClassComp1 />
+      <ClassParentComp />
     </div>
   );
 }
