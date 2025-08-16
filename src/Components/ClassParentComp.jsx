@@ -1,5 +1,5 @@
 import React from "react";
-import ClassChild from "./Components/ClassComponents/ClassChild";
+import ClassChild from "./ClassChild";
 
 class ClassParentComp extends React.Component {
   Mydetails = "All";

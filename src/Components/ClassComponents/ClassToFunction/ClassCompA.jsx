@@ -14,7 +14,7 @@ class ClassCompA extends React.Component {
           carBrand={this.carBrand}
           carModel={this.carModel}
           carYear={this.carYear}
-          carColor={this.carColor}
+          carColor={this.carColor} 
         />
       </div>
     );
