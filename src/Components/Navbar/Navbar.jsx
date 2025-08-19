@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 
 let Navbar = () => {
   return (
@@ -19,11 +19,11 @@ let Navbar = () => {
               About
             </a>
           </li>
-          {/* <li className="nav-item">
+          <li className="nav-item">
             <a href="./services" className="nav-link">
               services
             </a>
-          </li> */}
+          </li>
         </ul>
       </div>
     </nav>

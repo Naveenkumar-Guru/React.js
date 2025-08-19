@@ -1,7 +1,5 @@
 import { useState } from "react";
 import "./IncrementDecrement.css";
-
-
 const IncrementDecrement = () => {
   let [count, setCount] = useState(0);
 
@@ -16,7 +14,7 @@ const IncrementDecrement = () => {
   };
 
   return (
-    <div count-container>
+    <div className="count-container">
       <p className="count-display">{count}</p>
       <button className="count-button" onClick={decrement}>
         Decrement

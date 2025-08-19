@@ -11,16 +11,18 @@ let Employee = () => {
     { eid: 9, eName: "Beaument", gender: "Female" },
     { eid: 10, eName: "Paty", gender: "Female" },
   ];
+
+
   return (
     <div className="container">
       <div className="row"></div>
       <div className="cal-6"></div>
       <table className="table table-hover table-bordered table-striped table-sm">
-        <thead className="bg-dark text-white ">
+        <thead className="bg-dark text-white text-center ">
           <tr>
             <th>EmpId</th>
-            <th className="text-center ">EmpName</th>
-            <th className="text-center ">Gender</th>
+            <th>EmpName</th>
+            <th>Gender</th>
           </tr>
         </thead>
         <tbody className="text-center">
